@@ -1,0 +1,62 @@
+.cards
+{ 
+  background:linear-gradient(#e90b30,#f24f78,#e90b30)
+}
+
+.cards-container
+{
+   display:grid;
+   grid-template-columns:repeat(3,1fr);
+   gap:2.1rem;
+}
+
+.card
+{
+   text-align:center;
+   background: #fff;
+   color: rgb(7, 6, 6); 
+}
+
+.card img
+{
+   width:100%;
+   margin:0px;
+   justify-items:center;
+   color: #fff;
+   border-radius:10px;
+   transition: all 48ms ease;
+}
+
+.card:hover
+{
+   
+   transform: translateY(-2%);
+}
+
+.card-info
+{
+   padding:5%; 
+}
+
+.card  p
+{
+   margin:1px;
+   font-size:1rem;
+}
+
+.cards h2
+{
+   margin:0%;
+   margin-bottom:55px;
+   text-align:center;
+   color: #fff;
+   text-transform: uppercase;
+}
+.card  a
+{
+   text-decoration:none;
+   display:inline-block;
+   padding:5px;
+   border-radius:4px;
+   color: rgb(247, 17, 17);
+}

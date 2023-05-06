@@ -1,0 +1,158 @@
+/*---inicio da sessão rodapé---*/ 
+
+
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+  text-decoration: none;
+}
+
+.footer
+{
+   background-color: #e90b30;
+   
+}
+
+.footer .box-container img
+{
+       width: 45%;
+}
+
+ .footer .box-container  
+{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:1rem;
+    
+}
+.footer  .box-container .box 
+{
+  padding-top:0;
+  
+}
+
+.footer  .box-container .box h6
+{
+   font-size:1.4rem;
+   color: #ffff;
+}
+
+.footer  .box-container .box  .links
+{
+   display: block;
+   font-size: 1.1rem;
+   color: rgb(10, 7, 7);
+   padding:7px;
+   
+
+}
+.footer  .box-container .box  .links i 
+{
+   color: rgb(4, 3, 3);
+  
+   
+   
+}
+
+ a
+{
+   color: rgb(4, 3, 3);
+   text-decoration: none;
+   
+   
+}
+
+.footer  .box-container .box p
+{
+   line-height: 1.1rem;
+   font-size:1.1rem;
+   color: rgb(0, 0, 0);
+   padding:1px;
+
+}
+.footer .box-container .box .facebook
+{
+  height:2rem;
+  width:2rem;
+  line-height:2rem;
+  border-radius:2px;
+  font-size:2rem;
+  margin-right:5px;
+  text-align: center;
+  color: #0c0c0c;
+
+}
+.footer .box-container .box .whatsapp 
+{
+  height:2rem;
+  width: 2rem;
+  line-height:2rem;
+  border-radius:2px;
+  font-size: 2rem;
+  margin-right:5px;
+  text-align: center;
+  color: #040404;
+
+}
+.footer .box-container .box .instagram
+{
+  height:2rem;
+  width: 2rem;
+  line-height:2rem;
+  border-radius:2px;
+  font-size: 2rem;
+  margin-right:5px;
+  text-align: center;
+  color: #0d0d0d;
+
+}
+
+.footer .box-container .box .youtube
+{
+  height:2rem;
+  width: 2rem;
+  line-height:2rem;
+  border-radius:2px;
+  font-size: 2rem;
+  margin-right:5px;
+  text-align:center;
+  color: #040404;
+}
+
+ p span
+{
+  color: #ffff;
+}
+
+ .footer-copyright 
+{
+   text-align:center;
+   margin-top:0px;
+   padding:left;
+   
+   
+
+}
+
+ /*-----responsividade -----*/
+
+ @media screen and (max-width:947px) {
+   
+ 
+  
+ footer
+  {
+  
+    
+    padding:0px 0px;
+     
+  }
+ 
+        .copyrightText{
+          padding: 8px 40px;
+        }
+ }
+/*---fim da sessão rodapé---*/

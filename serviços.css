@@ -1,0 +1,36 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Roboto', sans-serif;
+    text-decoration: none;
+ }
+
+html
+{
+   font-size:100%;
+   overflow-x:hidden;
+   scroll-behavior:smooth;
+   scroll-padding-top:8rem;
+}
+
+body
+{
+  margin:0;
+  line-height:1.5;
+  min-height:1000px;
+}
+
+#sm-banner .banner-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:200px;
+    margin-bottom:50px;
+    max-width:600%;
+    background-position: center;
+    background-image: url("./Capturar17.PNG");
+    background-size: cover;
+}

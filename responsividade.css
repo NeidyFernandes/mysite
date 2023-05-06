@@ -1,0 +1,442 @@
+/*-----responsividade -----*/
+
+@media(max-width:1040) {
+  
+.container
+{ 
+   
+  width: 100%;
+  display: flex;
+  max-width: 1220px;
+
+}
+
+.cards
+{
+   width: 435px;
+   margin:15px;
+   border-radius: 6px;
+   overflow: hidden;
+   background: #fff;
+   box-shadow: 0px 1px 10px rgba(0, 0, 0,0.2);
+   cursor: default;
+   transition: all 400ms ease;
+}
+
+.image-section
+{
+    width: 100%;
+    height: 190px;
+    
+}
+section 
+{
+  padding:70px;
+  background-color: #ffff;
+}
+
+.cards .img-one
+{
+
+    background-image: url("./Capturar9-removebg-preview.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-two
+{
+
+    background-image: url("./mkdesign.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-three
+{
+
+    background-image: url("./Capturar\ bn.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content
+{
+
+   padding:15px ;
+   text-align: center;
+}
+
+.content h4
+{
+   text-align: center;
+}
+
+.content  p
+{
+   margin:15px 0px;
+   font-size:16px;
+}
+
+.cards:hover
+{  
+   box-shadow: 5px 5px 20px rgba(0, 0, 0,0.4); 
+   transform: translateY(-3%);
+}
+
+section h2
+{
+   margin:0%;
+   margin-bottom:55px;
+   text-align:center;
+   color: #e90b30;
+   text-transform: uppercase;
+}
+.content a
+{
+   text-decoration:none;
+   display:inline-block;
+   color: rgb(255, 255, 255);
+   background-color: #e90b30;
+   padding:5px 10px;
+   border-radius: 6px;
+}
+}
+
+
+
+
+
+
+
+@media (max-width:799px) {
+   
+    html{
+      font-size:80%;
+    }
+    .logo
+    {
+      padding:1px;
+    }
+    
+    #navbar
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      right:-300px;
+      height:80vh;
+      width:250px ;
+      background-color:#fff;
+      padding: 80px 0 0 10px;
+      box-shadow: 0 45px 60px rgba(0, 0, 0,0.1);
+    }
+    #header
+   {
+    display:flex;
+    align-items:center;
+    font-size:19px;
+    justify-content: space-between;
+    font-family: sans-serif;
+    position:sticky;
+    padding:3px 65px;
+    top:0;
+    width:100%;
+    background-color: #fff;
+   } 
+    #navbar li
+    {
+     margin-bottom: 25px;
+    }
+   
+    #mobile
+   {
+   display: flex;
+   align-items: center;
+   }
+  .sobre
+   {
+  font-family:'roboto' sans-serif;
+   }  
+   
+  .sobre .sobre-content
+   {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  } 
+  section h1
+  { 
+   color: rgb(251, 29, 66);
+   font-family: 'roboto' sans-serif;
+   text-transform: uppercase;
+  }
+  .title
+  {
+     width:100%;
+     margin: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+  }
+  .Title h2
+  {
+     width:100%;
+     margin:0;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     flex-direction:column;
+  }
+  .Title p
+  {
+     width:50%;
+     display:flex;
+     justify-content:right;
+     align-items:center;
+     
+  }
+  .sobre .sobre-content .imagem img
+{
+   width:350px;
+   height:350px;
+   object-fit:cover;
+   border-radius:20px;
+}
+.sobre .title::after
+{
+   content:""; 
+   position:center;
+   bottom:0;
+   left:50%;
+   font-size:20px;
+   width:205px;
+   height:3px;
+   background: #e90b30;
+   transform:translateX(-1%);
+}
+
+section .title::after
+{ 
+   content:"Quem Somos"; 
+}
+
+.sobre .sobre-content .lorem
+{
+  width:100%;
+}
+
+.Design span
+{
+   color: #e90b30;
+   
+}
+
+p
+
+{
+   color: #0a0909;
+   text-transform:none;
+   font-size: large;
+}
+
+section 
+{
+  padding:15px;
+  background-color: #ffff;
+}
+
+.container
+{ 
+   
+  width: 300%;
+  grid-template-columns: column;
+  max-width: 1220px;
+
+}
+
+.cards
+{
+  width:235px;
+  margin:6px;
+}
+
+.image-section
+{
+    width:100%;
+    height:235px;
+    
+}
+
+.cards .img-one
+{
+    background-image: url("./Capturar9-removebg-preview.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.cards .img-two
+{
+
+    background-image: url("./mkdesign.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-three
+{
+
+    background-image: url("./Capturar\ bn.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content
+{
+
+   padding:22px ;
+   text-align: center;
+}
+
+.content h4
+{
+   text-align: center;
+}
+
+.content  p
+{
+   margin:15px 0px;
+   font-size:16px;
+}
+
+
+section h2
+{
+   margin:0%;
+   margin-bottom:55px;
+   text-align:center;
+   color: #e90b30;
+   text-transform: uppercase;
+}
+.content a
+{
+   text-decoration:none;
+   display:inline-block;
+   color: rgb(255, 255, 255);
+   background-color: #e90b30;
+   padding:5px 10px;
+   border-radius:6px;
+}
+
+
+}
+
+
+@media (max-width:450){
+  
+  html{
+    font-size:80%;
+  }
+  .container
+{ 
+   
+  
+  flex-wrap: wrap;
+  max-width: 1220px;
+
+}
+ 
+.cards
+{
+  width: 100px;
+  
+}
+
+.image-section
+{
+    width:100%;
+    height:235px;
+    
+}
+
+.cards .img-one
+{
+    background-image: url("./Capturar9-removebg-preview.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.cards .img-two
+{
+
+    background-image: url("./mkdesign.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-three
+{
+
+    background-image: url("./Capturar\ bn.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content
+{
+
+   padding:22px ;
+   text-align: center;
+}
+
+.content h4
+{
+   text-align: center;
+}
+
+.content  p
+{
+   margin:15px 0px;
+   font-size:16px;
+}
+
+.cards:hover
+{  
+   box-shadow: 5px 5px 20px rgba(0, 0, 0,0.4); 
+   transform: translateY(-3%);
+}
+
+section h2
+{
+   margin:0%;
+   margin-bottom:55px;
+   text-align:center;
+   color: #e90b30;
+   text-transform: uppercase;
+}
+.content a
+{
+   text-decoration:none;
+   display:inline-block;
+   color: rgb(255, 255, 255);
+   background-color: #e90b30;
+   padding:5px 10px;
+   border-radius:6px;
+}
+
+}
+  /*---fim de responsividade---*/
